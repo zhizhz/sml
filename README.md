@@ -8,8 +8,8 @@ python 3.7.0
 cuda 11.0
 ```
 ### Instruction
-SEL dataset from [here](https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z)
-NKL dataset from [here](http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip)
+SEL dataset from https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z [here](https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z)
+NKL dataset from http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip [here](http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip)
 ### Thanks
 We would like to thank the following individuals and organizations for their contributions to this project:
 ```
