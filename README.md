@@ -1,6 +1,15 @@
 # sml
 <h1 style="align: center; color: #159957">Semantic Line Detection Using Deep-Hough Network with Attention Scheme and Strip Convolution</h1>
 
+### Requirements
+``` 
+pytorch 1.7.0
+python 3.7.0
+cuda 11.0
+```
+### Instruction
+SEL dataset from [here](https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z)
+NKL dataset from [here](http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip)
 ### Thanks
 We would like to thank the following individuals and organizations for their contributions to this project:
 ```
