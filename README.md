@@ -34,6 +34,9 @@ Download the datasets to root/.  data are datasets for semantic line detection.
 |    HED+HT            |         0.213        |       0.612         |       0.318            |
 |         Ours        |          0.697        |        0.783         |        0.733      |
 
+### Comparison of qualitative results 
+python test_nkl.py --pred /user-data/deep-hough-transform-master/zhznet_NKL_result/visualize_test --gt /user-data/deep-hough-transform-master/data/NKL/
+
 
 ### Thanks
 We would like to thank the following individuals and organizations for their contributions to this project:
