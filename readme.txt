@@ -2,6 +2,10 @@ https://github.com/zhizhz/sml.git
 # sml
 <h1 style="align: center; color: #159957">Semantic Line Detection Using Deep-Hough Network with Attention Scheme and Strip Convolution</h1>
 
+## [Paper Page]() | [Code Page](https://github.com/zhizhz/sml)
+
+### Instruction
+
 ### Requirements
 ``` 
 pytorch 1.7.0
