@@ -1,7 +1,7 @@
 # sml
 <h1 style="align: center; color: #159957">Semantic Line Detection Using Deep-Hough Network with Attention Scheme and Strip Convolution</h1>
 
-## [Paper Page]() | [Code Page](https://github.com/zhizhz/sml)
+## Initial version **Semantic Line Detection Using Deep-Hough Network with Attention Scheme and Strip Convolution[Paper Page]() | [Code Page](https://github.com/zhizhz/sml) We are cleaning up the code and related work.
 
 ### Instruction
 This paper proposes a novel semantic line detection algorithm based on improvements to the existing algorithm, including attention mechanisms, strip pooling and convolution layers. Although some existing algorithms can recognize semantic lines, their accuracy and speed still need improvement due to the representational nature of semantic lines. To address this, we propose a new semantic line detection algorithm based on an improved deep Hough transform. By using a new multi-scale context aggregation model that combines channel attention mechanisms and strip convolution and pooling layers, we can collect remote semantic background information of image pixels and reduce the impact of redundant information during network transmission, thus reducing errors or incomplete information in semantic line detection. Extensive experiments on the NKL dataset demonstrate that the proposed method outperforms state-of-the-art methods in detecting semantic lines. Finally, to make the network model lightweight, we replace the basic convolution layer with a novel convolutional network layer based on GhostNet, reducing the model's computational complexity and accelerating the network's prediction speed.、
@@ -18,10 +18,12 @@ pytorch 1.7.0
 python 3.7.0
 cuda 11.0
 ```
-### Instruction
+### Datasets
 SEL dataset from https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z [here](https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z)
 
 NKL dataset from http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip [here](http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip)
+
+Download the datasets to root/.  data are datasets for semantic line detection.
 ### Thanks
 We would like to thank the following individuals and organizations for their contributions to this project:
 ```
