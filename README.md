@@ -26,6 +26,15 @@ SEL dataset from https://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017
 NKL dataset from http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip [here](http://data.kaizhao.net/projects/deep-hough-transform/NKL.zip)
 
 Download the datasets to root/.  data are datasets for semantic line detection.
+### Comparison of quantitative results
+|        Method |            Presion         |      Recal     | F-measure    |
+|:-------------------:|:--------------------------:|:----------------------:|:----------------------:|
+|          DHT(ResNet50)|     0.679           |          0.766      |       0.719          |
+|       DHT(VGG16)     |        0.659        |             0.759           |       0.706        |
+|    HED+HT            |         0.213        |       0.612         |       0.318            |
+|         Ours        |          0.697        |        0.783         |        0.733      |
+
+
 ### Thanks
 We would like to thank the following individuals and organizations for their contributions to this project:
 ```
