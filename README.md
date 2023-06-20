@@ -10,6 +10,7 @@
         <img alt="Twitter URL" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fhang_zhang%40126.com&logo=gmail&label=mail%40hang_zhang">
 
 </div>
+
 Initial version **Semantic Line Detection Using Deep-Hough Network with Attention Scheme and Strip Convolution**
 [Paper Page]() | [Code Page](https://github.com/zhizhz/sml) 
 We are organizing the code and related work.
